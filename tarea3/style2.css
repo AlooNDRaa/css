@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(10, 142, 172);
+}
+
+p {
+    color: black; 
+}
+
+p {
+    color: blue; 
+}
+
+p {
+    color: red; 
+}
+
+.container > .first-child > p {
+    color: blue;
+}
+
+.first-child > h1 + p {
+    color: green; 
+}
+
+.first-child > h1 ~ p {
+    color: red; 
+}
+
+#unique-paragraph {
+    color: orange; 
+}
+
+.special-paragraph {
+    color: purple; 
+}
+
+.special-paragraph {
+    color: pink !important;
+}
